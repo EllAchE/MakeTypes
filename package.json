@@ -15,9 +15,6 @@
     "travis": "npm-run-all --serial test coverage coveralls",
     "test": "npm-run-all --serial prepublish generate:test build:test mocha"
   },
-  "bin": {
-    "make_types": "./index.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jvilk/MakeTypes.git"
