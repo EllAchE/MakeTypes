@@ -1,4 +1,4 @@
-import {default as Emitter, emitProxyTypeCheck} from './emit';
+import {default as Emitter, emitProxyTypeCheck} from './emit.js';
 
 export const enum BaseShape {
   BOTTOM,

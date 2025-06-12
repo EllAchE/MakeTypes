@@ -1,10 +1,10 @@
-import {parseEquals, parseThrows} from './common/util';
-import {WorldBank} from './generated/WorldBank';
-import {WorldBankProxy} from './generated/WorldBankProxy';
-import {GitHub} from './generated/GitHub';
-import {GitHubProxy} from './generated/GitHubProxy';
-import {TwitterStream} from './generated/TwitterStream';
-import {TwitterStreamProxy} from './generated/TwitterStreamProxy';
+import {parseEquals, parseThrows} from './common/util.js';
+import {WorldBank} from './generated/WorldBank.js';
+import {WorldBankProxy} from './generated/WorldBankProxy.js';
+import {GitHub} from './generated/GitHub.js';
+import {GitHubProxy} from './generated/GitHubProxy.js';
+import {TwitterStream} from './generated/TwitterStream.js';
+import {TwitterStreamProxy} from './generated/TwitterStreamProxy.js';
 
 describe("Large Samples", () => {
   it("World Bank", () => {

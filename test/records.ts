@@ -1,8 +1,8 @@
-import {parseEquals, parseThrows} from './common/util';
-import {OptionalField} from './generated/OptionalField';
-import {OptionalFieldProxy} from './generated/OptionalFieldProxy';
-import {FieldNames} from './generated/FieldNames';
-import {FieldNamesProxy} from './generated/FieldNamesProxy';
+import {parseEquals, parseThrows} from './common/util.js';
+import {OptionalField} from './generated/OptionalField.js';
+import {OptionalFieldProxy} from './generated/OptionalFieldProxy.js';
+import {FieldNames} from './generated/FieldNames.js';
+import {FieldNamesProxy} from './generated/FieldNamesProxy.js';
 
 describe("Records", () => {
   it("Optional fields", () => {

@@ -1,12 +1,12 @@
-import {parseEquals, parseThrows} from './common/util';
-import {PrimitiveArray} from './generated/PrimitiveArray';
-import {PrimitiveArrayProxy} from './generated/PrimitiveArrayProxy';
-import {EmptyArray} from './generated/EmptyArray';
-import {EmptyArrayProxy} from './generated/EmptyArrayProxy';
-import {MixedArray} from './generated/MixedArray';
-import {MixedArrayProxy} from './generated/MixedArrayProxy';
-import {MixedArray2} from './generated/MixedArray2';
-import {MixedArray2Proxy} from './generated/MixedArray2Proxy';
+import {parseEquals, parseThrows} from './common/util.js';
+import {PrimitiveArray} from './generated/PrimitiveArray.js';
+import {PrimitiveArrayProxy} from './generated/PrimitiveArrayProxy.js';
+import {EmptyArray} from './generated/EmptyArray.js';
+import {EmptyArrayProxy} from './generated/EmptyArrayProxy.js';
+import {MixedArray} from './generated/MixedArray.js';
+import {MixedArrayProxy} from './generated/MixedArrayProxy.js';
+import {MixedArray2} from './generated/MixedArray2.js';
+import {MixedArray2Proxy} from './generated/MixedArray2Proxy.js';
 
 describe("Collections", () => {
   it("Empty arrays", () => {
