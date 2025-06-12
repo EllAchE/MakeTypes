@@ -1,11 +1,11 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
-        "target": "es5",
+        "module": "es2020",
+        "target": "es2020",
         "noImplicitAny": true,
         "noUnusedLocals": true,
         "noEmitOnError": true,
-        "moduleResolution": "node",
+        "moduleResolution": "node16",
         "alwaysStrict": true,
         "inlineSourceMap": true,
         "strictNullChecks": true,

@@ -1,24 +1,24 @@
-import {parseEquals, parseThrows} from './common/util';
-import {NumberProxy} from './generated/NumberProxy';
-import {NumbersProxy} from './generated/NumbersProxy';
-import {Number} from './generated/Number';
-import {Numbers} from './generated/Numbers';
-import {StringProxy} from './generated/StringProxy';
-import {String} from './generated/String';
-import {StringsProxy} from './generated/StringsProxy';
-import {Strings} from './generated/Strings';
-import {BooleanProxy} from './generated/BooleanProxy';
-import {BooleansProxy} from './generated/BooleansProxy';
-import {Boolean} from './generated/Boolean';
-import {Booleans} from './generated/Booleans';
-import {NullProxy} from './generated/NullProxy';
-import {NullsProxy} from './generated/NullsProxy';
-import {Null} from './generated/Null';
-import {Nulls} from './generated/Nulls';
-import {MaybeNumberProxy} from './generated/MaybeNumberProxy';
-import {MaybeNumber} from './generated/MaybeNumber';
-import {BooleanOrStringProxy} from './generated/BooleanOrStringProxy';
-import {BooleanOrString} from './generated/BooleanOrString';
+import {parseEquals, parseThrows} from './common/util.js';
+import {NumberProxy} from './generated/NumberProxy.js';
+import {NumbersProxy} from './generated/NumbersProxy.js';
+import {Number} from './generated/Number.js';
+import {Numbers} from './generated/Numbers.js';
+import {StringProxy} from './generated/StringProxy.js';
+import {String} from './generated/String.js';
+import {StringsProxy} from './generated/StringsProxy.js';
+import {Strings} from './generated/Strings.js';
+import {BooleanProxy} from './generated/BooleanProxy.js';
+import {BooleansProxy} from './generated/BooleansProxy.js';
+import {Boolean} from './generated/Boolean.js';
+import {Booleans} from './generated/Booleans.js';
+import {NullProxy} from './generated/NullProxy.js';
+import {NullsProxy} from './generated/NullsProxy.js';
+import {Null} from './generated/Null.js';
+import {Nulls} from './generated/Nulls.js';
+import {MaybeNumberProxy} from './generated/MaybeNumberProxy.js';
+import {MaybeNumber} from './generated/MaybeNumber.js';
+import {BooleanOrStringProxy} from './generated/BooleanOrStringProxy.js';
+import {BooleanOrString} from './generated/BooleanOrString.js';
 
 describe('Primitive Types', () => {
   it('Number', () => {
