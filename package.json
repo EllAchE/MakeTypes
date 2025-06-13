@@ -1,13 +1,13 @@
 {
-  "name": "maketypes",
-  "version": "1.1.2",
-  "description": "Make TypeScript types and proxy objects from example JSON objects. Can use proxy objects to dynamically type check JSON at runtime.",
+  "name": "maketypes-modern",
+  "version": "0.0.1",
+  "description": "Make TypeScript types and proxy objects from example JSON objects. Can use proxy objects to dynamically type check JSON at runtime. Forked and built from https://github.com/jvilk/MakeTypes.git.P",
   "main": "lib/index.js",
   "types": "lib/index",
   "scripts": {
     "prepublish": "tsc",
     "generate:test": "node ./test/common/generateSamples.js",
-    "build:test": "tsc -p test/tsconfig.json",
+    "build:test": "npm run generate:test && tsc -p test/tsconfig.json --noEmitOnError",
     "mocha": "mocha",
     "istanbul": "istanbul cover ./test/common/generateSamples.js",
     "coverage": "npm-run-all --serial prepublish istanbul",
@@ -25,7 +25,7 @@
     "JSON",
     "synthesis"
   ],
-  "author": "John Vilk <jvilk@cs.umass.edu>",
+  "author": "Logan :)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jvilk/MakeTypes/issues"
@@ -38,6 +38,6 @@
     "istanbul": "^1.0.0-alpha",
     "mocha": "^5.2.0",
     "npm-run-all": "^3.1.2",
-    "typescript": "^2.1.4"
+    "typescript": "^5.8.3"
   }
 }

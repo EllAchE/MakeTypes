@@ -1,3 +1,8 @@
+# Note
+
+The original MakeTypes project is no longer maintained, below is the readme from the original project.
+This is a fork that modernizes the project for compatibility with newer versions of TypeScript.
+
 # MakeTypes 1.1.2
 > Generate TypeScript types and proxy classes from example JSON objects. Type check JSON objects at runtime!
 
