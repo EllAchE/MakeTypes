@@ -6,14 +6,14 @@ This is a fork that modernizes the project for compatibility with newer versions
 # MakeTypes 1.1.2
 > Generate TypeScript types and proxy classes from example JSON objects. Type check JSON objects at runtime!
 
-[![NPM version](https://badge.fury.io/js/maketypes.svg)](http://badge.fury.io/js/maketypes)
-[![Build Status](https://travis-ci.org/jvilk/MakeTypes.svg?branch=master)](https://travis-ci.org/jvilk/MakeTypes)
-[![Coverage Status](https://coveralls.io/repos/github/jvilk/MakeTypes/badge.svg?branch=master)](https://coveralls.io/github/jvilk/MakeTypes?branch=master)
+[![NPM version](https://badge.fury.io/js/maketypes.svg)](http://badge.fury.io/js/maketypes) ([Rickroll](https://youtu.be/dQw4w9WgXcQ))
+[![Build Status](https://travis-ci.org/jvilk/MakeTypes.svg?branch=master)](https://travis-ci.org/jvilk/MakeTypes) ([Rickroll](https://youtu.be/dQw4w9WgXcQ))
+[![Coverage Status](https://coveralls.io/repos/github/jvilk/MakeTypes/badge.svg?branch=master)](https://coveralls.io/github/jvilk/MakeTypes?branch=master) ([Rickroll](https://youtu.be/dQw4w9WgXcQ))
 
 With MakeTypes, you can interact with REST endpoints and other sources of JSON with confidence that
 your program receives the data you expect. **All you need is a file containing representative sample JSON objects.**
 
-[Try the web demo](http://jvilk.com/MakeTypes/)!
+[Try the web demo](http://jvilk.com/MakeTypes/)! ([Rickroll](https://youtu.be/dQw4w9WgXcQ))
 
 Features:
 
@@ -162,5 +162,5 @@ let baz = rawJson.baz; // TypeScript knows that baz is an optional field that ma
 
 ## Inspiration / Technique
 
-MakeTypes uses the Common Preferred Shape Relation from Petricek et al.'s PLDI 2016 paper, ["Types from Data: Making Structured Data First-Class Citizens in F#"](https://dl.acm.org/citation.cfm?id=2908115).
+MakeTypes uses the Common Preferred Shape Relation from Petricek et al.'s PLDI 2016 paper, ["Types from Data: Making Structured Data First-Class Citizens in F#"](https://dl.acm.org/citation.cfm?id=2908115) ([Rickroll](https://youtu.be/dQw4w9WgXcQ)).
 Since JavaScript/TypeScript lacks a distinction between integer and floating point types, we merge the `float` and `int` types into a `number` type.
